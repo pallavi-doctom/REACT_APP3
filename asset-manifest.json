@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/REACT-App2/static/css/main.83edcaf6.css",
-    "main.js": "/REACT-App2/static/js/main.ca40d94b.js",
-    "static/js/453.6f244050.chunk.js": "/REACT-App2/static/js/453.6f244050.chunk.js",
-    "static/media/IMS_logo.png": "/REACT-App2/static/media/IMS_logo.f0fdc548afab77d918e5.png",
-    "index.html": "/REACT-App2/index.html",
-    "main.83edcaf6.css.map": "/REACT-App2/static/css/main.83edcaf6.css.map",
-    "main.ca40d94b.js.map": "/REACT-App2/static/js/main.ca40d94b.js.map",
-    "453.6f244050.chunk.js.map": "/REACT-App2/static/js/453.6f244050.chunk.js.map"
+    "main.css": "/REACT_APP3/static/css/main.83edcaf6.css",
+    "main.js": "/REACT_APP3/static/js/main.3dd12691.js",
+    "static/js/453.6f244050.chunk.js": "/REACT_APP3/static/js/453.6f244050.chunk.js",
+    "static/media/IMS_logo.png": "/REACT_APP3/static/media/IMS_logo.f0fdc548afab77d918e5.png",
+    "index.html": "/REACT_APP3/index.html",
+    "main.83edcaf6.css.map": "/REACT_APP3/static/css/main.83edcaf6.css.map",
+    "main.3dd12691.js.map": "/REACT_APP3/static/js/main.3dd12691.js.map",
+    "453.6f244050.chunk.js.map": "/REACT_APP3/static/js/453.6f244050.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83edcaf6.css",
-    "static/js/main.ca40d94b.js"
+    "static/js/main.3dd12691.js"
   ]
 }
