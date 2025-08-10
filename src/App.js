@@ -22,59 +22,119 @@ import Signup from "./components/Signup"
 
 function App() {
   return (
-    <Router>
+    
       <Routes>
-        {/* Login Page as default */}
-        <Route path="/login" element={<LoginPage />} />
+        
+        {/* Redirect from / to /home */}
+        <Route path="/" element={<Navigate to="/login" replace />} />
+
+        {/* Home page */}
+       <Route path="/login" element={<LoginPage />} />
 
         {/* Placeholder routes for future pages */}
+        {/* Redirect from / to /home */}
+        <Route path="/" element={<Navigate to="/features" replace />} />
+
+        {/* Home page */}
         <Route path="/features" element={<Features />} />
+
+        {/* Redirect from / to /home */}
+        <Route path="/" element={<Navigate to="/about" replace />} />
+
+        {/* Home page */}
         <Route path="/about" element={<About />} />
+
+        {/* Redirect from / to /home */}
+        <Route path="/" element={<Navigate to="/signup" replace />} />
+
+        {/* Home page */}
         <Route path="/signup" element={<Signup />} />
+
+        {/* Redirect from / to /home */}
+        <Route path="/" element={<Navigate to="/home" replace />} />
 
         {/* Home page */}
         <Route path="/home" element={<HomePage />} />
+        
+        {/* Redirect from / to /home */}
+        <Route path="/" element={<Navigate to="/dashboard" replace />} />
 
-        {/* Dashboard page */}
+        {/* Home page */}
         <Route path="/dashboard" element={<Dashboard />} />
 
-        {/* Inventory Page*/}
+        {/* Redirect from / to /home */}
+        <Route path="/" element={<Navigate to="/inventory" replace />} />
+
+        {/* Home page */}
         <Route path="/inventory" element={<Inventory />} />
 
-        {/* SupplyChain Page*/}
-        <Route path="/supplychain" element={<SupplyChain />} />  
+        {/* Redirect from / to /home */}
+        <Route path="/" element={<Navigate to="/supplychain" replace />} />
 
-        {/* SupplyChain Page*/}
-        <Route path="/Analytics" element={<Analytics />} />     
+        {/* Home page */}
+        <Route path="/supplychain" element={<SupplyChain />} />
 
-         {/* Alerts Page*/}
-        <Route path="/Alerts" element={<Alerts />} />  
+        {/* Redirect from / to /home */}
+        <Route path="/" element={<Navigate to="/Analytics" replace />} />
 
-        {/* Settings Page*/}
-        <Route path="/Settings" element={<Settings />} /> 
+        {/* Home page */}
+        <Route path="/Analytics" element={<Analytics />} />
 
-        {/* Profile Page*/}
+        {/* Redirect from / to /home */}
+        <Route path="/" element={<Navigate to="/Alerts" replace />} />
+
+        {/* Home page */}
+        <Route path="/Alerts" element={<Alerts />} />
+
+        {/* Redirect from / to /home */}
+        <Route path="/" element={<Navigate to="/Settings" replace />} />
+
+        {/* Home page */}
+        <Route path="/Settings" element={<Settings />} />
+
+        {/* Redirect from / to /home */}
+        <Route path="/" element={<Navigate to="/Profile" replace />} />
+
+        {/* Home page */}
         <Route path="/Profile" element={<Profile />} />
 
-        {/* Profile Page*/}
+        {/* Redirect from / to /home */}
+        <Route path="/" element={<Navigate to="/Addproducts" replace />} />
+
+        {/* Home page */}
         <Route path="/Addproducts" element={<AddProduct />} />
 
-        {/* Create Page*/}
+        {/* Redirect from / to /home */}
+        <Route path="/" element={<Navigate to="/createshipment" replace />} />
+
+        {/* Home page */}
         <Route path="/createshipment" element={<CreateShipment />} />
 
-        {/* UpdateInventory Page*/}
+        {/* Redirect from / to /home */}
+        <Route path="/" element={<Navigate to="/updateinventory" replace />} />
+
+        {/* Home page */}
         <Route path="/updateinventory" element={<UpdateInventory />} />
 
-        {/* UpdateInventory Page*/}
+        {/* Redirect from / to /home */}
+        <Route path="/" element={<Navigate to="/exportreport" replace />} />
+
+        {/* Home page */}
         <Route path="/exportreport" element={<ExportReport />} />
 
-        {/* UpdateInventory Page*/}
+        {/* Redirect from / to /home */}
+        <Route path="/" element={<Navigate to="/runforecast" replace />} />
+
+        {/* Home page */}
         <Route path="/runforecast" element={<RunForecast />} />
 
-        {/* bookademo Page*/}
+        {/* Redirect from / to /home */}
+        <Route path="/" element={<Navigate to="/bookademo" replace />} />
+
+        {/* Home page */}
         <Route path="/bookademo" element={<Demo />} />
       </Routes>
-    </Router>
+   
   );
 }
 
