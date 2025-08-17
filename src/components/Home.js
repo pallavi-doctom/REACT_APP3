@@ -1,5 +1,7 @@
 import React from "react";
 import imsLogo from "./Assets/IMS_logo.png";
+import { Link } from "react-router-dom";
+
 
 
 export default function Home() {
