@@ -316,14 +316,14 @@ export default function Home() {
            <img src={imsLogo} alt="Logo" className="logo-icon" />
           NEXO Inventory
         </div>
-        <ul>
-          <li><a href="dashboard">Dashboard</a></li>
-          <li><a href="inventory">Inventory</a></li>
-          <li><a href="supplychain">Supply Chain</a></li>
-          <li><a href="analytics">Analytics</a></li>
-          <li><a href="alerts">Alerts</a></li>
-          <li><a href="settings">Settings</a></li>
-        </ul>
+        <nav>
+          <Link to="/dashboard">Dashboard</Link> // ✅ CORRECT
+          <Link to="/inventory">Inventory</Link> // ✅ CORRECT
+          <Link to="/supplychain">Supply Chain</Link> // ✅ CORRECT
+          <Link to="/analytics">Analytics</Link> // ✅ CORRECT
+          <Link to="/alerts">Alert</Link> // ✅ CORRECT
+          <Link to="/settings">Settings</Link> // ✅ CORRECT
+        </nav>
         <button onClick={() => window.location.href='profile'}>Profile</button>
       </nav>
 
