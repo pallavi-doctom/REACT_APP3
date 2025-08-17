@@ -1,6 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+const navLinkStyle = {
+  color: "#f1f5f9",
+  textDecoration: "none",
+  fontWeight: 500,
+  position: "relative",
+};
+
 export default function Signup() {
   return (
     <div style={{ fontFamily: "'Segoe UI', sans-serif" }}>
@@ -140,13 +147,6 @@ export default function Signup() {
         .signin-link a:hover {
           color: #22d3ee;
         }
-        .nav-link {
-          color: #f1f5f9;
-          text-decoration: none;
-          font-weight: 500;
-          position: relative;
-        }
-
       `}</style>
 
       <header>
@@ -155,7 +155,7 @@ export default function Signup() {
           <Link to="/features" style={navLinkStyle}>Features</Link>
           <Link to="/about" style={navLinkStyle}>About</Link>
           <Link to="/signup" style={navLinkStyle}>SignUp</Link>
-        </nav>  
+        </nav>
       </header>
 
       <section className="signup-section">
@@ -204,7 +204,7 @@ export default function Signup() {
             </div>
             <button type="submit">Sign Up</button>
             <div className="signin-link">
-               Already have an account? <Link to="/login">Sign In</Link>
+              Already have an account? <Link to="/login">Sign In</Link>
             </div>
           </form>
         </div>
