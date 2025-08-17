@@ -140,6 +140,13 @@ export default function Signup() {
         .signin-link a:hover {
           color: #22d3ee;
         }
+        .nav-link {
+          color: #f1f5f9;
+          text-decoration: none;
+          font-weight: 500;
+          position: relative;
+        }
+
       `}</style>
 
       <header>
