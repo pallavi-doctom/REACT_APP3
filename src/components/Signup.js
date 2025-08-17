@@ -144,10 +144,10 @@ export default function Signup() {
       <header>
         <h1>NEXO Inventory</h1>
         <nav>
-          <a href="/features">Features</a>
-          <a href="/about">About</a>
-          <a href="/login">Signin</a>
-        </nav>
+          <Link to="/features" style={navLinkStyle}>Features</Link>
+          <Link to="/about" style={navLinkStyle}>About</Link>
+          <Link to="/signup" style={navLinkStyle}>SignUp</Link>
+        </nav>  
       </header>
 
       <section className="signup-section">
@@ -196,7 +196,7 @@ export default function Signup() {
             </div>
             <button type="submit">Sign Up</button>
             <div className="signin-link">
-              Already have an account? <a href="/login">Sign In</a>
+               Already have an account? <Link to="/login">Sign In</Link>
             </div>
           </form>
         </div>

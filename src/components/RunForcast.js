@@ -237,7 +237,11 @@ export default function RunForecast() {
             </div>
             <button type="submit">🔮 Generate Forecast</button>
             <br /><br />
-            <button type="button" onClick={() => (window.location.href = "dashboard")}>← Back to Dashboard</button>
+            <Link to="/dashboard">
+            <button type="button">
+               ← Back to Dashboard
+           </button>
+          </Link>
           </form>
           <div className={`popup${showSuccess ? " show" : ""}`}>✅ Forecast Generated Successfully!</div>
         </div>

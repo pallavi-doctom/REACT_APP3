@@ -195,12 +195,12 @@ export default function UpdateInventory() {
       <header>
         <h1>NEXO Inventory</h1>
         <nav>
-          <a href="Home">Home</a>
-          <a href="inventory">Inventory</a>
-          <a href="supplychain">Supply Chain</a>
-          <a href="analytics">Analytics</a>
-          <a href="alerts">Alerts</a>
-          <a href="settings">Settings</a>
+          <Link to="/home">Home</Link> 
+          <Link to="/inventory">Inventory</Link> 
+          <Link to="/supplychain">Supply Chain</Link> 
+          <Link to="/analytics">Analytics</Link> 
+          <Link to="/alerts">Alert</Link> 
+          <Link to="/settings">Settings</Link> 
         </nav>
       </header>
 

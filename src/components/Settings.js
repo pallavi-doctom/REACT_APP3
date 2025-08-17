@@ -260,13 +260,13 @@ const Settings = () => {
       <header>
         <h1>NEXO Inventory</h1>
         <nav>
-          <a href="Home">Home</a>
-          <a href="dashboard">Dashboard</a>
-          <a href="inventory">Inventory</a>
-          <a href="supplychain">Supply Chain</a>
-          <a href="analytics">Analytics</a>
-          <a href="alerts">Alerts</a>
-          <button onClick={() => (window.location.href = "profile")}>Profile</button>
+          <Link to="/home">Home</Link> 
+          <Link to="/inventory">Inventory</Link> 
+          <Link to="/supplychain">Supply Chain</Link> 
+          <Link to="/analytics">Analytics</Link> 
+          <Link to="/dashboard">Dashboard</Link> 
+          <Link to="/alerts">Alerts</Link> 
+          <Link to="/profile">Profile</Link>
         </nav>
       </header>
 
@@ -386,17 +386,17 @@ const Settings = () => {
           <div className="btn-wrapper">
             <button className="save-btn">Save All Changes</button>
             <button
-              className="switch-account-btn"
-              onClick={() => (window.location.href = "switchaccount")}
+             className="switch-account-btn"
+             onClick={() => navigate("/switchaccount")}
             >
-              Switch Account
-            </button>
+                Switch Account
+             </button>
             <button
               className="logout-btn"
-              onClick={() => (window.location.href = "login")}
-            >
-              Logout
-            </button>
+              onClick={() => navigate("/login")}
+             >
+                Logout
+             </button>
           </div>
         </div>
       </div>

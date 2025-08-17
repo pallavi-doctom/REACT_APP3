@@ -122,6 +122,11 @@ export default function Features() {
           <h2>Future-Proof Ideas</h2>
           <p>Voice assistant, offline mode, and IoT sensors planned for upcoming releases.</p>
         </div>
+        <Link to="/login">
+            <button type="button">
+               ← Back to login
+           </button>
+        </Link>
       </section>
     </div>
   );

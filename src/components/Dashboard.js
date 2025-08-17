@@ -216,12 +216,12 @@ export default function Dashboard() {
       <header>
         <h1>NEXO Inventory</h1>
         <nav>
-          <a href="Home">Home</a>
-          <a href="inventory">Inventory</a>
-          <a href="supplychain">Supply Chain</a>
-          <a href="analytics">Analytics</a>
-          <a href="alerts">Alerts</a>
-          <a href="settings">Settings</a>
+          <Link to="/home">Home</Link> 
+          <Link to="/inventory">Inventory</Link> 
+          <Link to="/supplychain">Supply Chain</Link> 
+          <Link to="/analytics">Analytics</Link> 
+          <Link to="/alerts">Alert</Link> 
+          <Link to="/settings">Settings</Link> 
         </nav>
       </header>
 
@@ -272,11 +272,21 @@ export default function Dashboard() {
           <div className="quick-actions-alerts">
             <div className="action-box">
               <h3>Quick Actions</h3>
-              <div className="form-row"><a href="addproducts" className="button-link">Add Products</a></div>
-              <div className="form-row"><a href="createshipment" className="button-link">Create Shipment</a></div>
-              <div className="form-row"><a href="updateinventory" className="button-link">Update Inventory</a></div>
-              <div className="form-row"><a href="exportreport" className="button-link">Export Report</a></div>
-              <div className="form-row"><a href="runforecast" className="button-link">Run Forecast</a></div>
+              <div className="form-row">
+                <Link to="/addproducts" className="button-link">Add Products</Link>
+              </div>
+              <div className="form-row">
+                <Link to="/createshipment" className="button-link">Create Shipment</Link>
+              </div>
+              <div className="form-row">
+                <Link to="/updateinventory" className="button-link">Update Inventory</Link>
+              </div>
+              <div className="form-row">
+                <Link to="/exportreport" className="button-link">Export Report</Link>
+              </div>
+              <div className="form-row">
+                <Link to="/runforecast" className="button-link">Run Forecast</Link>
+              </div>
             </div>
             <div className="alert-box">
               <h3>Alerts Feed</h3>

@@ -115,12 +115,11 @@ export default function BookDemo() {
           <textarea rows="4" placeholder="Tell us about your needs"></textarea>
 
           <button className="submit-btn" type="submit">Book Demo</button>
-          <button
-              type="button"
-              onClick={() => window.location.href = 'home'}
-            >
-              ← Back to Home
-            </button>
+          <Link to="/home">
+            <button type="button">
+               ← Back to Home
+           </button>
+          </Link>
         </form>
       </div>
 

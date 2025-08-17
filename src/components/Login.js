@@ -30,10 +30,10 @@ const LoginPage = () => {
       <header style={{ backgroundColor: "#111a30", display: "flex", justifyContent: "space-between", alignItems: "center", padding: "1rem 2rem", boxShadow: "0 2px 10px rgba(0,0,0,0.2)" }}>
         <h1 style={{ fontSize: "1.5rem", color: "#5a9ac4", letterSpacing: "1px", margin: 0 }}>NEXO Inventory</h1>
         <nav style={{ display: "flex", gap: "1.5rem" }}>
-          <a href="/features" style={navLinkStyle}>Features</a>
-          <a href="/about" style={navLinkStyle}>About</a>
-          <a href="/signup" style={navLinkStyle}>SignUp</a>
-        </nav>
+          <Link to="/features" style={navLinkStyle}>Features</Link>
+          <Link to="/about" style={navLinkStyle}>About</Link>
+          <Link to="/signup" style={navLinkStyle}>SignUp</Link>
+        </nav>    
       </header>
 
       {/* Hero Section */}

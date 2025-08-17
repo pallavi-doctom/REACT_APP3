@@ -85,12 +85,12 @@ const Analytics = () => {
       <header>
         <h1>NEXO Inventory</h1>
         <nav>
-          <a href="/home">Home</a>
-          <a href="/inventory">Inventory</a>
-          <a href="/supplychain">Supply Chain</a>
-          <a href="/dashboard">Dashboard</a>
-          <a href="/alerts">Alerts</a>
-          <a href="/settings">Settings</a>
+          <Link to="/home">Home</Link> 
+          <Link to="/inventory">Inventory</Link> 
+          <Link to="/supplychain">Supply Chain</Link> 
+          <Link to="/dashboard">Dashboard</Link> 
+          <Link to="/alerts">Alert</Link> 
+          <Link to="/settings">Settings</Link> 
         </nav>
       </header>
 

@@ -325,6 +325,7 @@ export default function Home() {
           <Link to="/analytics">Analytics</Link> 
           <Link to="/alerts">Alert</Link> 
           <Link to="/settings">Settings</Link> 
+          <Link to="/profile">Profile</Link> 
         </nav>
         <button onClick={() => window.location.href='profile'}>Profile</button>
       </nav>
@@ -339,8 +340,12 @@ export default function Home() {
           <div className="highlight"><span>🔒</span>Secure & Transparent Tracking</div>
         </div>
         <div className="cta-buttons">
-          <button onClick={() => window.location.href='dashboard'}>Launch Dashboard</button>
-          <button onClick={() => window.location.href='bookademo'}>Book a Demo</button>
+          <Link to="/dashboard">
+            <button>Launch Dashboard</button>
+          </Link>
+          <Link to="/bookademo">
+            <button>Book a Demo</button>
+          </Link>
         </div>
       </section>
 
@@ -390,7 +395,15 @@ export default function Home() {
             <option value="out_of_stock">Out of Stock</option>
             <option value="delayed">Delayed</option>
           </select>
-          <button type="submit">Update</button>
+          <button 
+          type="submit" 
+          onClick={(e) => {
+          e.preventDefault(); // stops page refresh
+          alert("Updated!");
+          }}
+         >
+            Update
+        </button>
         </form>
       </section>
 

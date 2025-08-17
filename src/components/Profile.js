@@ -278,7 +278,11 @@ export default function Profile() {
         )}
       </div>
 
-      <button onClick={() => (window.location.href = "Home")}>← Back to Home</button>
+      <Link to="/home">
+            <button type="button">
+               ← Back to Home
+           </button>
+      </Link>
     </div>
   );
 }
