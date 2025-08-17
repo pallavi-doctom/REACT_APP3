@@ -270,9 +270,9 @@ export default function AddProduct() {
             </div>
 
             <button type="submit">🛠 Add Product</button><br/><br/>
-            <Link to="/home">
+            <Link to="/dashboard">
             <button type="button">
-               ← Back to Home
+               ← Back to Dashboard
            </button>
           </Link>
           </form>

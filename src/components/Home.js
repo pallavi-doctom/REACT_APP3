@@ -325,9 +325,12 @@ export default function Home() {
           <Link to="/analytics">Analytics</Link> 
           <Link to="/alerts">Alert</Link> 
           <Link to="/settings">Settings</Link> 
-          <Link to="/profile">Profile</Link> 
         </nav>
-        <button onClick={() => window.location.href='profile'}>Profile</button>
+        <button>
+          <Link to="/profile" style={{ textDecoration: "none", color: "inherit" }}>
+              Profile
+          </Link>
+        </button>
       </nav>
 
       {/* Hero */}

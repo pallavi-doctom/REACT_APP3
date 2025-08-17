@@ -222,8 +222,8 @@ export default function ExportReport() {
             <button type="submit">📥 Export Report</button>
             <br />
             <br />
-            <button type="button" onClick={() => (window.location.href = "dashboard")}>
-              ← Back to Dashboard
+            <button type="button" onClick={() => navigate("/dashboard")}>
+               ← Back to Dashboard
             </button>
           </form>
 

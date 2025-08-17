@@ -239,11 +239,9 @@ export default function CreateShipment() {
 
             <button type="submit">🚚 Create Shipment</button>
             <br /><br />
-            <Link to="/home">
-            <button type="button">
-               ← Back to Home
-           </button>
-          </Link>
+            <button type="button" onClick={() => navigate("/dashboard")}>
+               ← Back to Dashboard
+            </button>
           </form>
           <div className={`popup${showMsg ? " show" : ""}`}>
             ✅ Shipment Created Successfully!
