@@ -1,5 +1,6 @@
 // About.jsx
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -351,6 +352,11 @@ export default function About() {
               <p>AI & Forecasting Expert</p>
             </div>
           </div>
+          <Link to="/login">
+            <button type="button">
+               ← Back to login
+           </button>
+        </Link>
         </section>
       </main>
 

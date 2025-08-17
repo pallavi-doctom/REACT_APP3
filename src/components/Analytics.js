@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { Chart } from "chart.js/auto";
 import "./Styles/Analytics.css";
+import { Link } from "react-router-dom";
 
 const Analytics = () => {
   const stockRef = useRef(null);
