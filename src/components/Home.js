@@ -319,12 +319,12 @@ export default function Home() {
           NEXO Inventory
         </div>
         <nav>
-          <Link to="/dashboard">Dashboard</Link> // ✅ CORRECT
-          <Link to="/inventory">Inventory</Link> // ✅ CORRECT
-          <Link to="/supplychain">Supply Chain</Link> // ✅ CORRECT
-          <Link to="/analytics">Analytics</Link> // ✅ CORRECT
-          <Link to="/alerts">Alert</Link> // ✅ CORRECT
-          <Link to="/settings">Settings</Link> // ✅ CORRECT
+          <Link to="/dashboard">Dashboard</Link> 
+          <Link to="/inventory">Inventory</Link> 
+          <Link to="/supplychain">Supply Chain</Link> 
+          <Link to="/analytics">Analytics</Link> 
+          <Link to="/alerts">Alert</Link> 
+          <Link to="/settings">Settings</Link> 
         </nav>
         <button onClick={() => window.location.href='profile'}>Profile</button>
       </nav>
