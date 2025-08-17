@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/REACT_APP3/static/css/main.83edcaf6.css",
-    "main.js": "/REACT_APP3/static/js/main.425bcef6.js",
+    "main.js": "/REACT_APP3/static/js/main.92f3888f.js",
     "static/js/453.6f244050.chunk.js": "/REACT_APP3/static/js/453.6f244050.chunk.js",
     "static/media/IMS_logo.png": "/REACT_APP3/static/media/IMS_logo.f0fdc548afab77d918e5.png",
     "index.html": "/REACT_APP3/index.html",
     "main.83edcaf6.css.map": "/REACT_APP3/static/css/main.83edcaf6.css.map",
-    "main.425bcef6.js.map": "/REACT_APP3/static/js/main.425bcef6.js.map",
+    "main.92f3888f.js.map": "/REACT_APP3/static/js/main.92f3888f.js.map",
     "453.6f244050.chunk.js.map": "/REACT_APP3/static/js/453.6f244050.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83edcaf6.css",
-    "static/js/main.425bcef6.js"
+    "static/js/main.92f3888f.js"
   ]
 }
